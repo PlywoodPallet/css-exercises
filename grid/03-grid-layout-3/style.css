@@ -7,7 +7,8 @@
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 3fr;
-  grid-template-rows: 1fr 0.5fr 5fr 1fr;
+  /* hack solution for thinning header, nav and footer */
+  grid-template-rows: 0.5fr 0.5fr 5fr 0.5fr;
   gap: 0.5rem;
   grid-template-areas:
   "header header"
