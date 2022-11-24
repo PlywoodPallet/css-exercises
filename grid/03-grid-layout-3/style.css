@@ -43,6 +43,7 @@
 .menu ul {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  list-style: none;
 }
 
 .menu li {
